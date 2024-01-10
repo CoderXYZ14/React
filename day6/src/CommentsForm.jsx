@@ -24,14 +24,14 @@ export default function CommentsForm(){
             <h4>Give a comment!</h4>
             <form>
                 <label htmlFor="username">Username: </label>
-                <input name="username" id="username"placeholder="username" type="text" value={formData.username} onChange={handleInputChange}/>
+                <input name="username" id="username" placeholder="username" type="text" value={formData.username} onChange={handleInputChange}/>
                 <br/><br/>
                 <label htmlFor="remarks">Remarks: </label>
-                <textarea name="remarks" id="remarks"placeholder="Add few remarks" value={formData.remarks}
+                <textarea name="remarks" id="remarks" placeholder="Add few remarks" value={formData.remarks}
                           onChange={handleInputChange}></textarea>
                 <br/><br/>
                 <label htmlFor="rating">Rating: </label>
-                <input name="rating"id="rating"placeholder="rating" type="number" min={1} max={5} value={formData.rating}
+                <input name="rating" id="rating" placeholder="rating" type="number" min={1} max={5} value={formData.rating}
                        onChange={handleInputChange}/>
                 <br/><br/>
                 <button>Submit</button>

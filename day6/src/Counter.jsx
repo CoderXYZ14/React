@@ -5,7 +5,7 @@ export default function Counter(){
     let increment=()=>{
         setCount(count+1);
     };
-    useEffect(function printSOmething(){
+    useEffect(function printSomething(){
         console.log("Hello World");
     })
     return (
